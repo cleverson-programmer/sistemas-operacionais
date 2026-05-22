@@ -2,33 +2,25 @@
  * TRABALHO DE SISTEMAS OPERACIONAIS - PARTE II (THREADS)
  * EXERCÍCIO 2(c) - PROBLEMA DOS FUMANTES
  *
- * INTEGRANTES DO GRUPO (IMPRIMIR EM TODOS OS PROGRAMAS):
+ * INTEGRANTES DO GRUPO:
  * - Rafael Lopes
  * - Cleverson Resende
  * - Matheus Barbosa
- * - Gustavo Cicero
  * - Bernado Melgaço
  *
- * OBJETIVO:
- * Simular 3 fumantes (3 threads) e 1 agente/representante (1 thread).
- * Cada fumante possui apenas 1 ingrediente (TABACO, PAPEL ou FÓSFOROS).
- * Em cada rodada, o agente coloca aleatoriamente 2 ingredientes na mesa e libera o fumante
- * que possui o ingrediente restante. Esse fumante pega os itens, monta o cigarro e fuma.
- * Ao terminar de fumar, o fumante libera o agente para iniciar a próxima rodada.
- *
- * ENTRADA (DIGITADA NO TECLADO) - PARÂMETROS DA SIMULAÇÃO:
+ * ENTRADA - PARÂMETROS DA SIMULAÇÃO:
  * 1) Quantidade de rodadas (quantas vezes o agente colocará ingredientes)
  * 2) Tempo mínimo para fumar (ms)
  * 3) Tempo máximo para fumar (ms)
  *
- * ENTRADA (CASOS DE TESTE SUGERIDOS):
+ * ENTRADA CASOS DE TESTE:
  * Caso 1 (pequeno):
  * rodadas=10, fumarMin=100, fumarMax=300
  *
  * Caso 2 (médio):
  * rodadas=50, fumarMin=100, fumarMax=400
  *
- * Caso 3 (estresse):
+ * Caso 3 (dificil):
  * rodadas=200, fumarMin=10, fumarMax=80
  *
  * COMO COMPILAR (NA RAIZ DO PROJETO):

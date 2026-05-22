@@ -2,37 +2,25 @@
  * TRABALHO DE SISTEMAS OPERACIONAIS - PARTE II (THREADS)
  * EXERCÍCIO 2(f) - PROBLEMA DOS TRÊS ROBÔS
  *
- * INTEGRANTES DO GRUPO (IMPRIMIR EM TODOS OS PROGRAMAS):
+ * INTEGRANTES DO GRUPO:
  * - Rafael Lopes
  * - Cleverson Resende
  * - Matheus Barbosa
- * - Gustavo Cicero
  * - Bernado Melgaço
  *
- * OBJETIVO:
- * Controlar três robôs (Bart, Lisa, Maggie), cada um com sua própria thread, garantindo
- * que eles se movam SEMPRE na sequência:
- * Bart → Lisa → Maggie → Lisa → Bart → Lisa → Maggie → ... (um robô de cada vez)
- *
- * REGRAS DO ENUNCIADO:
- * - Usar semáforos para garantir a sequência.
- * - Não usar espera ocupada (busy wait).
- * - Usar a chamada move() para indicar um movimento do robô.
- * - Definir valores iniciais das variáveis e/ou semáforos utilizados.
- *
- * ENTRADA (DIGITADA NO TECLADO) - PARÂMETROS DA SIMULAÇÃO:
+ * ENTRADA - PARÂMETROS DA SIMULAÇÃO:
  * 1) Quantidade de ciclos (um ciclo = Bart → Lisa → Maggie → Lisa)
  * 2) Tempo mínimo do move() (ms)
  * 3) Tempo máximo do move() (ms)
  *
- * ENTRADA (CASOS DE TESTE SUGERIDOS):
+ * ENTRADA CASOS DE TESTE:
  * Caso 1 (pequeno):
  * ciclos=3, moveMin=10, moveMax=50
  *
  * Caso 2 (médio):
  * ciclos=10, moveMin=10, moveMax=100
  *
- * Caso 3 (estresse):
+ * Caso 3 (dificil):
  * ciclos=100, moveMin=0, moveMax=10
  *
  * COMO COMPILAR (NA RAIZ DO PROJETO):

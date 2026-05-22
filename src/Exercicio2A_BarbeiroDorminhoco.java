@@ -2,18 +2,17 @@
  * TRABALHO DE SISTEMAS OPERACIONAIS - PARTE II (THREADS)
  * EXERCÍCIO 2(a) - PROBLEMA DO BARBEIRO DORMINHOCO
  *
- * INTEGRANTES DO GRUPO (IMPRIMIR EM TODOS OS PROGRAMAS):
+ * INTEGRANTES DO GRUPO:
  * - Rafael Lopes
  * - Cleverson Resende
  * - Matheus Barbosa
- * - Gustavo Cicero
  * - Bernado Melgaço
  *
  * OBJETIVO:
  * Simular uma barbearia com 1 barbeiro, 1 cadeira de barbeiro e N cadeiras de espera.
  * Usar threads para simular concorrência e semáforos para evitar condições de corrida.
  *
- * ENTRADA (DIGITADA NO TECLADO) - PARÂMETROS DA SIMULAÇÃO:
+ * ENTRADA - PARÂMETROS DA SIMULAÇÃO:
  * 1) Número de cadeiras de espera (N)
  * 2) Quantidade de clientes a serem gerados
  * 3) Tempo mínimo do corte (ms)
@@ -21,14 +20,14 @@
  * 5) Tempo mínimo entre chegadas de clientes (ms)
  * 6) Tempo máximo entre chegadas de clientes (ms)
  *
- * ENTRADA (CASOS DE TESTE SUGERIDOS):
+ * ENTRADA CASOS DE TESTE:
  * Caso 1 (pequeno):
  * N=1, clientes=5, corteMin=200, corteMax=400, chegadaMin=50, chegadaMax=100
  *
  * Caso 2 (médio):
  * N=3, clientes=20, corteMin=200, corteMax=800, chegadaMin=50, chegadaMax=300
  *
- * Caso 3 (estresse / filas cheias):
+ * Caso 3 (dificil):
  * N=0, clientes=10, corteMin=200, corteMax=800, chegadaMin=50, chegadaMax=150
  *
  * COMO COMPILAR (NA RAIZ DO PROJETO):

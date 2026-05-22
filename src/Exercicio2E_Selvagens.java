@@ -2,39 +2,27 @@
  * TRABALHO DE SISTEMAS OPERACIONAIS - PARTE II (THREADS)
  * EXERCÍCIO 2(e) - O JANTAR DOS SELVAGENS
  *
- * INTEGRANTES DO GRUPO (IMPRIMIR EM TODOS OS PROGRAMAS):
+ * INTEGRANTES DO GRUPO:
  * - Rafael Lopes
  * - Cleverson Resende
  * - Matheus Barbosa
- * - Gustavo Cicero
  * - Bernado Melgaço
  *
- * OBJETIVO:
- * Simular uma tribo de selvagens comendo ao redor de um caldeirão com N porções.
- * Cada selvagem, quando quer comer, se serve de 1 porção. Se o caldeirão estiver vazio,
- * o selvagem acorda o cozinheiro e espera ele encher o caldeirão novamente.
- * O cozinheiro só enche quando o caldeirão está vazio. Selvagens não podem se servir ao mesmo tempo.
- *
- * RESTRIÇÕES DE SINCRONIZAÇÃO (CONFORME ENUNCIADO):
- * - Selvagens não podem se servir ao mesmo tempo (mas podem comer ao mesmo tempo);
- * - Selvagens não podem se servir se o caldeirão estiver vazio;
- * - O cozinheiro só pode encher o caldeirão quando ele estiver vazio.
- *
- * ENTRADA (DIGITADA NO TECLADO) - PARÂMETROS DA SIMULAÇÃO:
+ * ENTRADA - PARÂMETROS DA SIMULAÇÃO:
  * 1) Capacidade do caldeirão (N porções quando cheio)
  * 2) Quantidade de selvagens (threads)
  * 3) Quantidade de porções que cada selvagem comerá
  * 4) Tempo mínimo para comer (ms)
  * 5) Tempo máximo para comer (ms)
  *
- * ENTRADA (CASOS DE TESTE SUGERIDOS):
+ * ENTRADA CASOS DE TESTE:
  * Caso 1 (força acordar o cozinheiro com frequência):
  * N=1, selvagens=3, porcoesPorSelvagem=3, comerMin=50, comerMax=150
  *
  * Caso 2 (médio):
  * N=5, selvagens=5, porcoesPorSelvagem=5, comerMin=50, comerMax=200
  *
- * Caso 3 (estresse):
+ * Caso 3 (dificil):
  * N=20, selvagens=30, porcoesPorSelvagem=10, comerMin=10, comerMax=80
  *
  * COMO COMPILAR (NA RAIZ DO PROJETO):

@@ -2,19 +2,13 @@
  * TRABALHO DE SISTEMAS OPERACIONAIS - PARTE II (THREADS)
  * EXERCÍCIO 2(b) - PROBLEMA DOS LEITORES E ESCRITORES
  *
- * INTEGRANTES DO GRUPO (IMPRIMIR EM TODOS OS PROGRAMAS):
+ * INTEGRANTES DO GRUPO:
  * - Rafael Lopes
  * - Cleverson Resende
  * - Matheus Barbosa
- * - Gustavo Cicero
  * - Bernado Melgaço
  *
- * OBJETIVO:
- * Simular várias threads que acessam concorrentemente um vetor de inteiros M.
- * Leitores podem ler em paralelo, mas escritores devem escrever com acesso exclusivo.
- * Usar semáforos para evitar condições de corrida e também evitar starvation (fila justa).
- *
- * ENTRADA (DIGITADA NO TECLADO) - PARÂMETROS DA SIMULAÇÃO:
+ * ENTRADA - PARÂMETROS DA SIMULAÇÃO:
  * 1) Tamanho do vetor M
  * 2) Quantidade de leitores
  * 3) Quantidade de escritores
@@ -26,14 +20,14 @@
  * 9) Tempo mínimo de pausa entre operações (ms)
  * 10) Tempo máximo de pausa entre operações (ms)
  *
- * ENTRADA (CASOS DE TESTE SUGERIDOS):
+ * ENTRADA CASOS DE TESTE:
  * Caso 1 (pequeno):
  * tamM=5, leitores=2, escritores=1, ops=5, leituraMin=50, leituraMax=150, escritaMin=80, escritaMax=200, pausaMin=10, pausaMax=50
  *
  * Caso 2 (médio):
  * tamM=10, leitores=5, escritores=2, ops=10, leituraMin=50, leituraMax=200, escritaMin=80, escritaMax=250, pausaMin=10, pausaMax=100
  *
- * Caso 3 (estresse):
+ * Caso 3 (dificil):
  * tamM=50, leitores=20, escritores=10, ops=30, leituraMin=10, leituraMax=80, escritaMin=20, escritaMax=120, pausaMin=0, pausaMax=20
  *
  * COMO COMPILAR (NA RAIZ DO PROJETO):

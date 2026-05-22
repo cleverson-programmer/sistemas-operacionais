@@ -2,38 +2,27 @@
  * TRABALHO DE SISTEMAS OPERACIONAIS - PARTE II (THREADS)
  * EXERCÍCIO 2(d) - PROBLEMA DOS FILÓSOFOS (JANTAR DOS FILÓSOFOS)
  *
- * INTEGRANTES DO GRUPO (IMPRIMIR EM TODOS OS PROGRAMAS):
+ * INTEGRANTES DO GRUPO:
  * - Rafael Lopes
  * - Cleverson Resende
  * - Matheus Barbosa
- * - Gustavo Cicero
  * - Bernado Melgaço
  *
- * OBJETIVO:
- * Simular cinco filósofos que alternam entre meditar e comer.
- * Para comer, cada filósofo precisa pegar dois hashis (direita e esquerda).
- * Filosofos vizinhos não podem comer ao mesmo tempo, pois compartilham hashis.
- * Usar threads para concorrência e semáforos para evitar deadlock.
- *
- * ESTRATÉGIA ANTI-DEADLOCK:
- * Usar um "garçom" (semáforo) permitindo no máximo 4 filósofos tentando pegar hashis ao mesmo tempo.
- * Isso impede a situação em que os 5 pegam um hashi e ficam esperando o outro (deadlock).
- *
- * ENTRADA (DIGITADA NO TECLADO) - PARÂMETROS DA SIMULAÇÃO:
+ * ENTRADA - PARÂMETROS DA SIMULAÇÃO:
  * 1) Quantidade de refeições por filósofo
  * 2) Tempo mínimo de meditação (ms)
  * 3) Tempo máximo de meditação (ms)
  * 4) Tempo mínimo de comer (ms)
  * 5) Tempo máximo de comer (ms)
  *
- * ENTRADA (CASOS DE TESTE SUGERIDOS):
+ * ENTRADA CASOS DE TESTE::
  * Caso 1 (pequeno):
  * refeicoes=3, meditarMin=50, meditarMax=150, comerMin=80, comerMax=200
  *
  * Caso 2 (médio):
  * refeicoes=10, meditarMin=50, meditarMax=300, comerMin=80, comerMax=300
  *
- * Caso 3 (estresse):
+ * Caso 3 (dificil):
  * refeicoes=50, meditarMin=10, meditarMax=80, comerMin=10, comerMax=80
  *
  * COMO COMPILAR (NA RAIZ DO PROJETO):
