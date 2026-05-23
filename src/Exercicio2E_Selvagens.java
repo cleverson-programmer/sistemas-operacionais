@@ -192,7 +192,7 @@ public class Exercicio2E_Selvagens { // Declara a classe principal do exercício
     }
 
     public static void main(String[] args) throws Exception { // Declara o main para ler entrada, iniciar threads e finalizar a simulação.
-        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Gustavo Cicero, Bernado Melgaço."); // Imprime os integrantes conforme exigido.
+        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Bernado Melgaço."); // Imprime os integrantes conforme exigido.
         System.out.println("Exercício 2(e) - O jantar dos Selvagens (Threads + Semáforos)."); // Imprime o título do exercício para contextualizar.
         Scanner scanner = new Scanner(System.in); // Cria Scanner para ler valores do teclado.
         int capacidade = lerInteiro(scanner, "Digite a capacidade do caldeirão (N porções quando cheio): "); // Lê a capacidade do caldeirão.

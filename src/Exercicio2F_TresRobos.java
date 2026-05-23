@@ -171,7 +171,7 @@ public class Exercicio2F_TresRobos { // Declara a classe principal que contém m
     }
 
     public static void main(String[] args) throws Exception { // Método main que lê parâmetros, cria threads e executa a sequência exigida.
-        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Gustavo Cicero, Bernado Melgaço."); // Imprime os nomes do grupo conforme exigido.
+        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Bernado Melgaço."); // Imprime os nomes do grupo conforme exigido.
         System.out.println("Exercício 2(f) - Problema dos três robôs (Threads + Semáforos)."); // Imprime o título do programa para contextualizar.
         Scanner scanner = new Scanner(System.in); // Cria Scanner para ler valores digitados pelo usuário.
         int ciclos = lerInteiro(scanner, "Digite a quantidade de ciclos (Bart→Lisa→Maggie→Lisa): "); // Lê quantos ciclos completos executar.

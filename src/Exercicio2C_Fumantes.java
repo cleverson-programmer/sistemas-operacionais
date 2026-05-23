@@ -228,7 +228,7 @@ public class Exercicio2C_Fumantes { // Declara a classe principal do exercício 
     }
 
     public static void main(String[] args) throws Exception { // Declara o main para ler entrada, iniciar threads e finalizar a simulação.
-        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Gustavo Cicero, Bernado Melgaço."); // Imprime os integrantes conforme exigido no enunciado.
+        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Bernado Melgaço."); // Imprime os integrantes conforme exigido no enunciado.
         System.out.println("Exercício 2(c) - Problema dos Fumantes (Threads + Semáforos)."); // Imprime o título do programa para contextualizar o que está sendo executado.
         Scanner scanner = new Scanner(System.in); // Cria Scanner para ler os valores digitados pelo usuário.
         int rodadas = lerInteiro(scanner, "Digite a quantidade de rodadas: "); // Lê quantas rodadas o agente deve executar.

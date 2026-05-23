@@ -241,7 +241,7 @@ public class Exercicio2B_LeitoresEscritores { // Declara a classe principal do e
     }
 
     public static void main(String[] args) throws Exception { // Declara o main que configura a simulação, cria threads e imprime resultados.
-        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Gustavo Cicero, Bernado Melgaço."); // Imprime os nomes do grupo conforme exigido.
+        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Bernado Melgaço."); // Imprime os nomes do grupo conforme exigido.
         System.out.println("Exercício 2(b) - Problema dos Leitores e Escritores (Threads + Semáforos)."); // Imprime o título do exercício para contextualizar a execução.
         Scanner scanner = new Scanner(System.in); // Cria o Scanner para leitura dos parâmetros pelo teclado.
         int tamanho = lerInteiro(scanner, "Digite o tamanho do vetor M: "); // Lê o tamanho do vetor para criar a memória compartilhada.

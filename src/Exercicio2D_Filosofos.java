@@ -151,7 +151,7 @@ public class Exercicio2D_Filosofos { // Declara a classe principal do exercício
     }
 
     public static void main(String[] args) throws Exception { // Declara o main que lê entradas, cria a mesa e inicia as threads dos filósofos.
-        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Gustavo Cicero, Bernado Melgaço."); // Imprime os integrantes conforme exigido.
+        System.out.println("Integrantes do grupo: Rafael Lopes, Cleverson Resende, Matheus Barbosa, Bernado Melgaço."); // Imprime os integrantes conforme exigido.
         System.out.println("Exercício 2(d) - Jantar dos Filósofos (Threads + Semáforos)."); // Imprime o título para o usuário saber o que está rodando.
         Scanner scanner = new Scanner(System.in); // Cria Scanner para ler entrada do teclado.
         int refeicoes = lerInteiro(scanner, "Digite a quantidade de refeições por filósofo: "); // Lê quantas refeições cada filósofo fará antes de encerrar.
